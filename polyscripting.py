@@ -3,8 +3,11 @@ import re
 
 
 def polyscripter(input_code):
-    output_list = re.split(r'([\s\=\(\)]+)', input_code)
-    print(output_list)
+    buffer = []
+    input_list = list(input_code)
+
+    for ch in input_list:
+        buffer.append()
 
     output_code = "".join(output_list)
 
